@@ -33,9 +33,10 @@ That image is really showing three different graphs overlaid on each other, that
 
 <br clear='all'>
 
-<img src='example-side-roads.webp' style='width:25vw;border:1px solid black;margin:10px;padding:10px'>
-<img src='example-main-roads.webp' style='width:25vw;border:1px solid black;margin:10px;padding:10px'>
-<img src='example-highways.webp' style='width:25vw;border:1px solid black;margin:10px;padding:10px'>
+<img src='https://github.com/uva-cs/dsa2/raw/refs/heads/main/pa/pa1/example-side-roads.webp' style='float:right;padding-left:20px;padding-right:20px;width:33vw'>
+<img src='https://github.com/uva-cs/dsa2/raw/refs/heads/main/pa/pa1/example-main-roads.webp' style='float:right;padding-left:20px;padding-right:20px;width:33vw'>
+<img src='https://github.com/uva-cs/dsa2/raw/refs/heads/main/pa/pa1/example-highways.webp' style='float:right;padding-left:20px;padding-right:20px;width:33vw'>
+
 
 
 The starting node may already be a node that connects a highway.  In this case, the output would skip the necessary steps.  However, you do not need to do anything different in your code -- the first thing you do is delete the minimum node, then check it for membership in the next highest set (if you are doing side roads, you check if the removed node is in the main road set).  And since the start node will be so, it will immediately terminate.  For example, if the start node in the above diagram was $y$ (at (7,1)), and the end node was $d$ (at (3,7)), it would proceed as follows:
