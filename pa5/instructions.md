@@ -82,7 +82,7 @@ There are multiple possible answers for these cases, and any valid set of paths 
 
 The second two test cases are a graph where there is a *different* number of edge- and vertex-disjoint paths:
 
-<a href="graph.svg"><img src="graph.svg"></a>
+<a href="https://github.com/uva-cs/dsa2/blob/main/pa/pa5/graph.svg"><img src="https://github.com/uva-cs/dsa2/blob/main/pa/pa5/graph.svg"></a>
 
 Note that there could have been different paths for the EDP version: `0 1 3 5 6` and `0 2 3 4 6`; either one would be acceptable.  Likewise, there are four possible paths for the VDP version.
 
