@@ -14,7 +14,8 @@ This homework builds upon the material taught in lecture on slides 86-89 of the 
 
 ### Example
 
-<img src='example.webp' style='float:right;padding-left:20px;padding-right:20px;width:33vw'>
+<img src='https://raw.githubusercontent.com/uva-cs/dsa2/main/pa/pa1/example.webp' style='float:right;padding-left:20px;padding-right:20px;width:33vw'>
+
 
 Consider the weighted graph image to the right.  The green dotted lines are the side roads; there is a side road between every set of orthogonally adjacent nodes in that diagram.  Main roads -- red dashed lines in the figure -- connect every set of nodes that are distance 2 apart.  Highways, shown as solid purple lines, connect every set of nodes that are distance 6 apart.  In this graph, the weight of an edge is just the distance between the nodes.  ***HOWEVER this isn't always true.***  The graph has weights provided for each edge.
 
